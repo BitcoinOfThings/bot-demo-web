@@ -80,3 +80,6 @@ function updateScroll() {
     var element = document.getElementById("messages");
     element.scrollTop = element.scrollHeight;
 }
+
+// automatically connect with default settings
+startConnect()
